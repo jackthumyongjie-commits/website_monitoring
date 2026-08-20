@@ -1,11 +1,9 @@
-# Screenshots for README
+# Screenshots
 
-These SVG files are lightweight previews for GitHub. You can replace them with real PNG/JPG screenshots:
+README uses PNG files (more reliable on GitHub than SVG):
 
-- `dashboard.png` — Admin dashboard
-- `websites.png` — Manage Websites
-- `uptime.png` — Uptime records
-- `logs.png` — Monitoring logs
-- `settings.png` — Settings / Telegram
-
-Update image paths in `README.md` if you use PNG instead of SVG.
+- `dashboard.png`
+- `websites.png`
+- `uptime.png`
+- `logs.png`
+- `settings.png` (must NOT contain real tokens/passwords)

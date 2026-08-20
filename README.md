@@ -2,7 +2,7 @@
 
 Admin-only website uptime monitor built with **PHP + MySQL**. Checks HTTP availability on a schedule, stores logs, and sends **Telegram** alerts when status changes (DOWN, recovery, or slow).
 
-![Dashboard](docs/images/dashboard.svg)
+![Dashboard](docs/images/dashboard.png)
 
 ## Features
 
@@ -19,13 +19,11 @@ Admin-only website uptime monitor built with **PHP + MySQL**. Checks HTTP availa
 
 | Dashboard | Manage Websites |
 |-----------|-----------------|
-| ![Dashboard](docs/images/dashboard.svg) | ![Websites](docs/images/websites.svg) |
+| ![Dashboard](docs/images/dashboard.png) | ![Websites](docs/images/websites.png) |
 
 | Uptime records | Monitoring Logs | Settings |
 |----------------|-----------------|----------|
-| ![Uptime](docs/images/uptime.svg) | ![Logs](docs/images/logs.svg) | ![Settings](docs/images/settings.svg) |
-
-Replace SVG previews in `docs/images/` with your own PNG screenshots if you prefer.
+| ![Uptime](docs/images/uptime.png) | ![Logs](docs/images/logs.png) | ![Settings](docs/images/settings.png) |
 
 ## Security (before publishing to Git)
 
