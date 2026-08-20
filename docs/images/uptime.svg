@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#f5f0e8"/>
+  <rect width="220" height="720" fill="#1c1917"/>
+  <text x="260" y="100" fill="#1c1917" font-family="Georgia,serif" font-size="42">Uptime records</text>
+  <rect x="260" y="140" width="900" height="200" rx="16" fill="#fff" stroke="#e7e5e4"/>
+  <text x="280" y="180" fill="#1c1917" font-size="18" font-weight="600">web toilet</text>
+  <text x="280" y="200" fill="#78716c" font-size="13">https://example.com/</text>
+  <rect x="280" y="220" width="56" height="24" rx="12" fill="#ccfbf1"/>
+  <text x="292" y="237" fill="#0d9488" font-size="12">UP</text>
+  <text x="1000" y="190" fill="#0d9488" font-size="32" font-weight="700">98.74%</text>
+  <g transform="translate(280,260)">
+    <rect x="0" y="0" width="4" height="40" fill="#e7e5e4"/>
+    <rect x="8" y="0" width="4" height="40" fill="#e7e5e4"/>
+    <rect x="800" y="0" width="4" height="40" fill="#fecaca"/>
+    <rect x="808" y="0" width="4" height="40" fill="#fecaca"/>
+  </g>
+  <text x="280" y="310" fill="#78716c" font-size="12">Last 90 days (daily)</text>
+</svg>

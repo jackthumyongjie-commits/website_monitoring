@@ -1,0 +1,35 @@
+# cPanel 部署说明（模板）
+
+**不要在此文件写入真实密码、Token 或 Cron 密钥。** 仅作步骤参考。
+
+## 1. 上传文件
+
+将项目上传到 `public_html/你的子目录/`。
+
+## 2. 数据库
+
+1. cPanel → MySQL Databases：创建数据库与用户，记下名称。
+2. 复制 `config/database.example.php` → `config/database.php`，填入数据库信息。
+3. 复制 `config/config.example.php` → `config.php`，填入 Telegram 与 `RESET_CODE`。
+4. 导入 `database/schema.sql`（仅表结构），或运行 `install.php` 完成安装。
+
+## 3. Cron（每 1 分钟）
+
+```
+* * * * * curl -s "https://your-domain.com/your-app-path/cron/web-cron.php" > /dev/null 2>&1
+```
+
+若使用带密钥的 Cron URL，格式示例：
+
+```
+https://your-domain.com/your-app-path/cron/web-cron.php?key=YOUR_CRON_SECRET
+```
+
+**切勿把真实 `YOUR_CRON_SECRET` 写进 Git 或公开文档。**
+
+## 4. 安装后必做
+
+- 登录后台后立即修改管理员密码。
+- 在 Settings 配置 Telegram。
+- 删除 `install.php`（若使用过）。
+- 在 cPanel 修改数据库密码、后台密码、Cron 密钥、恢复密钥（若曾写在本地文件中）。

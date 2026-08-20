@@ -1,0 +1,20 @@
+# Real credentials — copy from *.example.php and edit locally
+config/config.php
+config/database.php
+
+# Runtime / logs
+cron/cron.log
+cron/folder-watch.log
+cron/.last-run
+cron/.folder-watch
+cron/watch.pid
+config/installed.lock
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Archives (often contain full config)
+*.zip

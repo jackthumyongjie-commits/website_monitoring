@@ -1,0 +1,5 @@
+# Linux / 服务器 crontab 示例（每 1 分钟执行一次）
+# 编辑: crontab -e
+# 把路径改成你服务器上的实际路径
+
+* * * * * /usr/bin/php "/var/www/html/project/Website Monitoring System/cron/monitor.php" >> "/var/www/html/project/Website Monitoring System/cron/cron.log" 2>&1

@@ -1,0 +1,7 @@
+# cPanel Cron 示例（把 URL 换成你自己的站点，不要提交真实密钥到 Git）
+# cPanel → Cron Jobs → 每 1 分钟
+
+* * * * * curl -s "https://your-domain.com/your-app-path/cron/web-cron.php" > /dev/null 2>&1
+
+# PHP CLI 示例（路径按服务器实际修改）:
+# * * * * * /usr/local/bin/php "/home/your_user/public_html/your-app-path/cron/monitor.php"
